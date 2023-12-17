@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Unit Converter</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700;800;900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+    <script src="https://cdn.tailwindcss.com"></script>
+  </head>
+
+  <body>
+    <section class="my-40 flex justify-center">
+      <div id="card">
+        <div id="top-card">
+          <h2>Metric/Imperial unit conversion</h2>
+          <input id="number-input" type="number" placeholder="Type here" />
+        </div>
+
+        <div id="bottom-card">
+          <div>
+            <h3>Length (Meter/Feet)</h3>
+            <p id="length-conversion">
+              0 meters = 0.000 feet | 0 feet = 0.000 meters
+            </p>
+          </div>
+
+          <div>
+            <h3>Volume (Liters/Gallons)</h3>
+            <p id="volume-conversion">
+              0 liters = 0.000 gallons | 0 gallons = 0.000 liters
+            </p>
+          </div>
+
+          <div>
+            <h3>Mass (Kilograms/Pounds)</h3>
+            <p id="mass-conversion">
+              0 kilos = 0.000 pounds | 0 pounds = 0.000 kilos
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+  </body>
+  <script src="main.js"></script>
+</html>
